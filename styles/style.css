@@ -181,17 +181,41 @@ header img{
 .selfie{
     background-color: var(--dark-blue);
     margin-top: 6rem;
-        --mask:
-          radial-gradient(335.41px at 50% calc(100% - 450.00px),#000 100%,#0000 100%) calc(50% - 300px) 0/600px 100%,
-          radial-gradient(335.41px at 50% calc(100% + 300.00px),#0000 100%,#000 100%) 50% calc(100% - 150px)/600px 100% repeat-x;
-        -webkit-mask: var(--mask);
-                mask: var(--mask);
-    padding-bottom: 20rem;
+    --mask:
+    radial-gradient(236.68px at 50% calc(100% - 324.00px),#000 100%,#0000 100%) calc(50% - 240px) 0/480px 100%,
+    radial-gradient(236.68px at 50% calc(100% + 204.00px),#0000 100%,#000 100%) 50% calc(100% - 120px)/480px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    padding-bottom: 10rem;
     z-index: -2;
+    
 }
 
 .selfie img{
     border-radius: 50%;
     width: 30%;
+    padding: 2rem;
+}
+
+.selfie h1{
+    font-weight: 300;
+    font-size: 36px;
+    padding-left: 2rem;
+    margin-top: -2rem;
+}
+
+.favthings{
+    font-weight: 300;
+    margin-top: -5rem;
+}
+
+.fav{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#things{
+    margin-top: -2rem;
+    font-size: 28px;
 }
 
