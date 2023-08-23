@@ -1,0 +1,10 @@
+/* Medium screens (tablets/iPads) */
+@media (max-width: 1007px) and (min-width: 641px) {
+    .header li a {
+        font-size: 20px;
+        border-top: none;
+      }
+
+
+
+  }

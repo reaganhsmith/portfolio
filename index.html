@@ -17,39 +17,24 @@
 
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            projects
-          </li>
-          <li>
-            Experience
-          </li>
-          <li>
-            School
-          </li>
+    
+      <header class="header">
+         <img src="images/Logo.png" alt="Reagan's Logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+                <li> <a href="#websites">Projects</a> </li>
+                <li> <a href="#experience">Experience</a> </li>
+                <li> <a href="#school">School</a> </li>
+                <li> <a href="#aboutMe">About</a> </li>
+                <li> <a href="#skills">Skills</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
         </ul>
-       </nav>
-       <img src="images/Logo.png" alt="Reagan's Logo">
-       <nav>
-        <ul>
-          <li>
-            About
-          </li>
-          <li>
-            Skills
-          </li>
-          <li>
-            Contact
-          </li>
-        </ul>
-       </nav>
-    </header>
+      </header>
     <main>
       <div class="first">
 
-        <div class="websites">
+        <div class="socialmedia">
           <a href="https://www.linkedin.com/in/reagan-houser/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo"></a>
           <a href="https://www.behance.net/reaganmarie" target="_blank"><img src="images/behance.png" alt="Behance logo"></a>
           <a href="https://github.com/reaganhsmith" target="_blank"><img src="images/github.png" alt="github logo"></a>
@@ -69,7 +54,7 @@
 
       <marquee behavior="scroll" direction="left"> • sql • css • html • python • javascript • c# • sql • css • html • python •</marquee>
 
-      <div class="websites">
+      <div class="websites" id="websites">
         <h2>Website Projects</h2>
         <div class="sites">
           <div class="aboutsite">
@@ -133,10 +118,10 @@
       </div>
 
       <div class="colorBlock">
-        <p>Design is intellegence made visible</p>
+        <p>"Design is intellegence made visible"</p>
       </div>
 
-      <div class="experience">
+      <div class="experience" id="experience">
         <h2> Experience </h2>
         <div class="exList">
           <p>&#9758; Most of my experience to this point is what I have showcased above and done in my classes. I have loved the classes I have taken because they have taught me different aspects of web design and development. Through this I have been able to figure out what I like most. I have learned I like web development the most and specifically working with CSS, HTML and JS. I also learned that backend development is very fun and I like working with SQL. </p>
@@ -149,13 +134,13 @@
         </div>
       </div>
 
-      <div class="school">
+      <div class="school" id="school">
         <h2>School & Classes</h2>
         <p>I am a senior at Brigham Young University-Idaho. My degree is in web design and development with a minor in computer science. I graduate in April 2024.</p>
         <p> • Web Frontend Development • UI Eval and Design • Web Backend Development  • JavaScript Language • Web Fundamentals •  Advanced CSS • Programming Building Blocks • Programming W/ Functions •Intro to Databases •UX Design •Graphic design 1 & 2 • Typography • Creating Online Media • </p>
       </div>
 
-      <div class="aboutMe">
+      <div class="aboutMe" id="aboutMe">
         <h2>About Me</h2>
         <div class="pics">
           <img src="images/FOP.png" alt="Me as fairly Odd Parents">
@@ -173,7 +158,7 @@
 
       </div>
 
-      <div class="skills">
+      <div class="skills" idd="skills">
         <h3> Skillz</h3>
         <div class="indSkill">
           <p><strong>CSS</strong> 1.5 years </p>
@@ -237,7 +222,7 @@
 
       </div>
 
-      <div class="contact">
+      <div class="contact" id="contact">
         <img src="images/wink.png" alt="winking Smiley Face">
         <div class="chat">
           <h3>Lets Chat!</h3>

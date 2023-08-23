@@ -1,0 +1,20 @@
+
+@media (min-width: 1008px) {
+    /* Styles for large screens */
+
+    header{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    header img{
+        grid-column: 1 / span 1;
+    }
+
+
+
+
+
+
+  }
+
