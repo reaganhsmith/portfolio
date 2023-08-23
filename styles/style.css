@@ -49,6 +49,7 @@ header img{
     top: 0;
     right: 0;
     padding-right: 1rem;
+    z-index: -1;
   }
 
 .socialmedia img{
