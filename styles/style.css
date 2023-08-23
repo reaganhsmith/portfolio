@@ -31,7 +31,10 @@ header img{
     background-color: var(--cream);
     width: 100%;
     position: fixed;
-    margin-top: -15px;
+    top: 0;
+    right: 0;
+    padding-top: -15px;
+    z-index:4;
   }
   
   .header ul {
@@ -49,7 +52,8 @@ header img{
     top: 0;
     right: 0;
     padding-right: 1rem;
-    z-index: -1;
+    padding-top: 1rem;
+    z-index: 1;
   }
 
 .socialmedia img{
@@ -172,4 +176,22 @@ header img{
     }
   }
   
+
+/* ----------- THIS IS THE CODE FOR THE FIRST SECTION -----------*/
+.selfie{
+    background-color: var(--dark-blue);
+    margin-top: 6rem;
+        --mask:
+          radial-gradient(335.41px at 50% calc(100% - 450.00px),#000 100%,#0000 100%) calc(50% - 300px) 0/600px 100%,
+          radial-gradient(335.41px at 50% calc(100% + 300.00px),#0000 100%,#000 100%) 50% calc(100% - 150px)/600px 100% repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+    padding-bottom: 20rem;
+    z-index: -2;
+}
+
+.selfie img{
+    border-radius: 50%;
+    width: 30%;
+}
 

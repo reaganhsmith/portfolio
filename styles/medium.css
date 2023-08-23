@@ -18,6 +18,17 @@
         grid-template-columns: 20% 80%;
     }
 
+    /* ----------- THIS IS THE CODE FOR THE FIRST SECTION -----------*/
+    .first{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 6rem;
+    }
+    .selfie{
+        grid-row: 1 / span 1;
+        padding: 5rem;
+    }
+
 
 
   }
