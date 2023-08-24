@@ -255,22 +255,28 @@ marquee{
   background-color: var(--dark-pink);
   border-radius: 3rem;
   width: 300px;
-  height: 500px;
   padding: 2rem;
   margin: 1rem; 
   vertical-align: top; 
   box-sizing: border-box;
 }
 
-
 .websites img{
   width: 8rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-  
+.websites h3{
+  font-size: 32px;
+  white-space: normal;
+  text-align: center;
+}
 
 .websites p {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   white-space: normal;
 }
