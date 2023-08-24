@@ -25,9 +25,44 @@
         padding-top: 6rem;
     }
     .selfie{
-        grid-row: 1 / span 1;
-        padding: 5rem;
-    }
+      grid-row: 1 / span 1;
+      padding: 5rem;
+      -webkit-mask: none;
+      mask: none;
+      z-index: -2;
+      margin-top: -5rem;
+}    
+
+.selfie img{
+  width: 120%;
+  padding: 0;
+}
+
+.selfie h1{
+  font-weight: 300;
+  font-size: 38px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: -3rem;
+}
+
+.favthings{
+  margin-top: -2rem;
+  padding: 3rem 2rem;
+}
+
+.fav{
+  font-weight: 300;
+  font-size: 38px;
+}
+
+
+
+    /* ----------- THIS IS THE CODE FOR THE WEBSITE AND PROJECTS SECTION -----------*/
+
+
+
+
 
 
 
