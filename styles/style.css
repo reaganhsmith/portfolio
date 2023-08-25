@@ -240,11 +240,13 @@ marquee{
   white-space: nowrap;
   align-items: center;
 }
+
 .aboutsite{
   display: inline-block;
   background-color: var(--dark-pink);
   border-radius: 3rem;
   width: 300px;
+  height: 650px;
   padding: 2rem;
   margin: 1rem; 
   vertical-align: top; 
@@ -265,11 +267,52 @@ marquee{
   text-align: center;
 }
 
+.websites h2{
+  font-size: 42px;
+}
+
+.websites h4{
+  font-size: 18px;
+  text-align: center;
+}
+
 .websites p {
   font-size: 16px;
   font-weight: 300;
   white-space: normal;
 }
+
+.websites a{
+  background-color: var(--light-pink);
+  color: var(--dark-color);
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.websites a:hover{
+  background-color: var(--green);
+  text-decoration: var(--dark-color) wavy underline;
+}
+
+/* ----------- THIS IS THE CODE FOR QUOTE SECTION -----------*/
+.colorBlock{
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+
+.colorBlock p{
+  color: var(--cream);
+  font-size: 24px;
+  text-align: center;
+}
+
+
 
 /* ----------- THIS IS THE CODE FOR THE About me section -----------*/
 .pics img{

@@ -59,6 +59,29 @@
     }
 
 
+    /* ----------- THIS IS THE CODE FOR THE WEBSITES AND PROJECTS SECTION -----------*/
+
+ 
+.aboutsite p, .aboutsite a{
+display: none;
+font-size: 20px;
+}
+ 
+.aboutsite{
+  height: 400px;
+  width: 500px;
+}
+.aboutsite:hover{
+  height: 700px;
+  width: 90%;
+}
+.aboutsite:hover p, .aboutsite:hover a{
+  display:block;
+}
+
+.aboutsite:hover img{
+  width: 30%;
+}
 
 
   }

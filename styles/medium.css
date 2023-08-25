@@ -56,10 +56,21 @@
   font-size: 38px;
 }
 
-
+.colorBlock p{
+  font-size: 24px;
+}
 
     /* ----------- THIS IS THE CODE FOR THE WEBSITE AND PROJECTS SECTION -----------*/
 
+    .aboutsite{
+      width: 500px;
+      height: 700px;
+    }
+    .websites p {
+      font-size: 20px;
+      font-weight: 300;
+      white-space: normal;
+    }
 
 
 
