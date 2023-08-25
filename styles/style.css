@@ -299,6 +299,7 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   grid-gap: 3rem;
+  justify-content: center;
 }
 
 .colorchange img{
