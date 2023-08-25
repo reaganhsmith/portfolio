@@ -2,7 +2,6 @@
 
 :root {
     --dark-blue: #7BA1A9;
-    --light-blue: #DFEEF1;
     --green: #E1E7D0;
     --dark-pink: #E2C3C8; 
     --light-pink: #F4EDEE;
@@ -253,7 +252,7 @@ marquee{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #D16F52;
+  background-color: #E85FAD;
   -webkit-transition: .4s;
   transition: .4s;
 }
