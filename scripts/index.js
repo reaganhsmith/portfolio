@@ -66,7 +66,7 @@ toggleButton.addEventListener("click", () => {
         fish.src = "images/ocean.png";
         smiley.src = "images/madlib.png";
         circus.src = "images/zenGarden.png";
-        logo.src = "images/ccimages/Logo.png";
+        logo.src = "images/Logo.png";
 
 
         toggleButton.classList.remove("button-clicked");
