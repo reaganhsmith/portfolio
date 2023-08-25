@@ -64,10 +64,17 @@
 }
 
 /* ----------- THIS IS THE CODE FOR THE Color change button -----------*/
+.switch {
+  width: 60px;
+}
 
 .colorchange p{
-  font-weight: 300;
-  font-size: 18px;
+  font-size: 28px;
+}
+
+.colorchange{
+  padding: .5rem;
+
 }
 
     /* ----------- THIS IS THE CODE FOR THE WEBSITE AND PROJECTS SECTION -----------*/
