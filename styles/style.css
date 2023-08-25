@@ -177,11 +177,6 @@ header img{
 .selfie{
     background-color: var(--dark-blue);
     margin-top: 5rem;
-    --mask:
-    radial-gradient(236.68px at 50% calc(100% - 324.00px),#000 100%,#0000 100%) calc(50% - 240px) 0/480px 100%,
-    radial-gradient(236.68px at 50% calc(100% + 204.00px),#0000 100%,#000 100%) 50% calc(100% - 120px)/480px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
     padding-bottom: 10rem;
     z-index: -2;
     
