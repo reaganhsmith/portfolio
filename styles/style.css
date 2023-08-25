@@ -224,13 +224,98 @@ header img{
 }
 
 marquee{
-  background-color: var(--dark-pink);
+  background-color: var(--dark-blue);
   padding: 1rem;
+  color: var(--cream);
   font-size: 30px;
   font-weight: 300;
 }
 
+/* ----------- THIS IS THE CODE FOR THE Color change button -----------*/
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D16F52;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--dark-color);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--dark-blue);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--cream);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.colorchange{
+  padding: 1rem;
+  background-color: var(--green);
+  display: flex;
+  align-items: center;
+  grid-gap: 3rem;
+}
+
+.colorchange img{
+  width: 10rem;
+  position: relative;
+  animation: movearrow 5s infinite normal;
+}
+.colorchange p{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+@keyframes movearrow {
+  0%   {left: -20px; top: 0px;}
+  50%  {left: 20px; top: 0px;}
+   100%  {left: -20px; top: 0px;}
+  }
 /* ----------- THIS IS THE CODE FOR THE WEBSITES AND PROJECTS SECTION -----------*/
 
 
@@ -315,7 +400,7 @@ h2{
 /* ----------- THIS IS THE CODE FOR THE Experience -----------*/
 
 .experience{
-  background-color: var(--dark-pink);
+  background-color: var(--light-pink);
   padding: 1rem;
   padding-bottom: 10rem;
     --mask:
@@ -326,7 +411,7 @@ h2{
 }
 
 .experience p{
-  border-bottom: solid 4px var(--light-pink);
+  border-bottom: solid 4px var(--dark-color);
   padding-bottom: 1rem;
   font-weight: 300;
   font-size:20px;

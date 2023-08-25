@@ -63,6 +63,13 @@
   font-size: 24px;
 }
 
+/* ----------- THIS IS THE CODE FOR THE Color change button -----------*/
+
+.colorchange p{
+  font-weight: 300;
+  font-size: 18px;
+}
+
     /* ----------- THIS IS THE CODE FOR THE WEBSITE AND PROJECTS SECTION -----------*/
 
     .aboutsite{
@@ -92,9 +99,12 @@
 }
 
 .phoneImg{
-  background-color: var(--light-pink);
+  background-color: var(--dark-pink);
   position: relative;
   border-radius: 25px;
   height: 550px;
 }
+
+
+
   }
