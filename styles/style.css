@@ -48,13 +48,8 @@ header img{
   }
 
 .socialmedia{
-    margin-top: 5rem;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    z-index: 1;
+    margin-top: 8rem;
+
   }
 
 .socialmedia img{
@@ -281,6 +276,7 @@ marquee{
   white-space: normal;
 }
 
-
-
-
+/* ----------- THIS IS THE CODE FOR THE About me section -----------*/
+.pics img{
+  width: 5rem;
+}
