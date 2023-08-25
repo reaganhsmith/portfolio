@@ -4,6 +4,7 @@
 // Select the images 
 
 const cats = document.querySelector(".cats");
+const logo = document.querySelector(".logo");
 const arrow = document.querySelector(".arrow");
 const cherries = document.querySelector("#cherries");
 const star = document.querySelector("#star");
@@ -40,6 +41,7 @@ toggleButton.addEventListener("click", () => {
         fish.src = "images/ccimages/fish.png";
         smiley.src = "images/ccimages/smiley.png";
         circus.src = "images/ccimages/circus.png";
+        logo.src = "images/ccimages/logo.png";
 
         toggleButton.classList.add("button-clicked");
     } else {
@@ -64,6 +66,7 @@ toggleButton.addEventListener("click", () => {
         fish.src = "images/ocean.png";
         smiley.src = "images/madlib.png";
         circus.src = "images/zenGarden.png";
+        logo.src = "images/ccimages/Logo.png";
 
 
         toggleButton.classList.remove("button-clicked");
