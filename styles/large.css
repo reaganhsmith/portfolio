@@ -1,4 +1,4 @@
-
+@import url(medium.css);
 @media (min-width: 1008px) {
     /* Styles for large screens */
 
@@ -74,6 +74,7 @@ font-size: 20px;
 .aboutsite:hover{
   height: 700px;
   width: 90%;
+  
 }
 .aboutsite:hover p, .aboutsite:hover a{
   display:block;
@@ -83,6 +84,33 @@ font-size: 20px;
   width: 30%;
 }
 
+.colorBlock{
+  padding: .3rem;
+}
 
+.colorBlock p{
+  font-size: 32px;
+}
+
+/* ----------- THIS IS THE CODE FOR THE Experience -----------*/
+
+.experience{
+  padding-bottom: 15rem;
+}
+.phoneImg img{
+  top: -3rem;
+  right: 9rem;
+  width: 20rem;
+}
+
+.exp{
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10rem;
+}
+
+.phoneImg{
+  height: 600px;
+  width: 400px;
+}
   }
 

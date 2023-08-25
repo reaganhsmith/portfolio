@@ -267,7 +267,7 @@ marquee{
   text-align: center;
 }
 
-.websites h2{
+h2{
   font-size: 42px;
 }
 
@@ -312,6 +312,32 @@ marquee{
   text-align: center;
 }
 
+/* ----------- THIS IS THE CODE FOR THE Experience -----------*/
+
+.experience{
+  background-color: var(--dark-pink);
+  padding: 1rem;
+  padding-bottom: 10rem;
+    --mask:
+      radial-gradient(147.57px at 50% calc(100% - 204.00px),#000 100%,#0000 100%) calc(50% - 160px) 0/320px 100%,
+      radial-gradient(147.57px at 50% calc(100% + 124.00px),#0000 100%,#000 100%) 50% calc(100% - 80px)/320px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+.experience p{
+  border-bottom: solid 4px var(--light-pink);
+  padding-bottom: 1rem;
+  font-weight: 300;
+  font-size:20px;
+
+}
+
+.phoneImg img{
+  display: none;
+}
+
+/* ----------- THIS IS THE CODE FOR School and classes -----------*/
 
 
 /* ----------- THIS IS THE CODE FOR THE About me section -----------*/

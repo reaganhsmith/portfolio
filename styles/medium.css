@@ -1,5 +1,8 @@
+
+
 /* Medium screens (tablets/iPads) */
-@media (max-width: 1007px) and (min-width: 641px) {
+
+@media(min-width: 641px) {
     .header li a {
         font-size: 16px;
         border-top: none;
@@ -72,9 +75,26 @@
       white-space: normal;
     }
 
+/* ----------- THIS IS THE CODE FOR THE Experience -----------*/
 
+.phoneImg img{
+  display: inline;
+  position: absolute;
+  top: -2rem;
+  right: 3rem;
+  width: 18rem;
+}
 
+.exp{
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  grid-gap: 10rem;
+}
 
-
-
+.phoneImg{
+  background-color: var(--light-pink);
+  position: relative;
+  border-radius: 25px;
+  height: 550px;
+}
   }
