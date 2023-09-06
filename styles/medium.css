@@ -106,10 +106,19 @@
 }
 
 .phoneImg{
-  background-color: var(--dark-pink);
+  background-color: var(--accent-color);
   position: relative;
   border-radius: 25px;
   height: 550px;
+}
+
+.experience {
+  padding-bottom: 10rem;
+  --mask:
+    radial-gradient(147.57px at 50% calc(100% - 204.00px),#000 100%,#0000 100%) calc(50% - 160px) 0/320px 100%,
+    radial-gradient(147.57px at 50% calc(100% + 124.00px),#0000 100%,#000 100%) 50% calc(100% - 80px)/320px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
 }
 
 

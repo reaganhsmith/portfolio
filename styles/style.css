@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
 :root {
-    --dark-blue: #7BA1A9;
-    --green: #E1E7D0;
-    --dark-pink: #E2C3C8; 
-    --light-pink: #F4EDEE;
-    --cream: #F1F0E5;
-    --dark-color: #193338;
+    --primary-color: #1E375A;
+    --secondary-color: #DADEBE;
+    --accent-color: #CEAFD4;
+    --light: #FBFCF4;
     --font: 'Roboto', sans-serif;
 }
 
 html{
     font-family: var(--font);
-    background-color: var(--cream);
+    background-color: var(--light);
     color: var(--dark-color);
 }
 
@@ -22,13 +20,13 @@ header img{
 }
 
   a {
-    color: var(--dark-color);
+    color: var(--primary-color);
   }
   
   /* ----------- HEADER -----------*/
   
   .header {
-    background-color: var(--cream);
+    background-color: var(--light);
     width: 100%;
     position: fixed;
     top: 0;
@@ -61,13 +59,13 @@ header img{
     padding: 5px 20px;
     text-decoration: none;
     font-weight: 300;
-    border-top: solid 2px var(--dark-blue);
+    border-top: solid 2px var(--primary-color);
   }
 
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: var(--dark-blue);
-    color: var(--cream);
+    background-color: var(--primary-color);
+    color: var(--light);
   }
   
   .header img{
@@ -98,7 +96,7 @@ header img{
   }
   
   .header .menu-icon .navicon {
-    background: var(--dark-blue);
+    background: var(--primary-color);
     display: block;
     height: 2px;
     position: relative;
@@ -108,7 +106,7 @@ header img{
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: var(--dark-blue);
+    background: var(--primary-color);
     content: '';
     display: block;
     height: 100%;
@@ -174,7 +172,7 @@ header img{
 
 /* ----------- THIS IS THE CODE FOR THE FIRST SECTION -----------*/
 .selfie{
-    background-color: var(--dark-blue);
+    background-color: var(--secondary-color);
     margin-top: 5rem;
     padding-bottom: 10rem;
     z-index: -2;
@@ -197,9 +195,12 @@ header img{
 .favthings{
     font-weight: 300;
     margin-top: -10rem;
-    background-color: var(--dark-pink);
+    background-color: var(--primary-color);
     padding: 3rem 2rem;
+    color: var(--light);
 }
+
+
 
 .fav{
     font-weight: 300;
@@ -223,9 +224,9 @@ header img{
 }
 
 marquee{
-  background-color: var(--dark-blue);
+  background-color: var(--accent-color);
   padding: 1rem;
-  color: var(--cream);
+  color: var(--light);
   font-size: 30px;
   font-weight: 300;
 }
@@ -252,7 +253,7 @@ marquee{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #E85FAD;
+  background-color: #D46BA2;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -264,17 +265,17 @@ marquee{
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: var(--dark-blue);
+  background-color: var(--light);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--cream);
+  box-shadow: 0 0 1px var(--light);
 }
 
 input:checked + .slider:before {
@@ -294,7 +295,7 @@ input:checked + .slider:before {
 
 .colorchange{
   padding: 1rem;
-  background-color: var(--green);
+  background-color: var(--accent-color);
   display: flex;
   align-items: center;
   grid-gap: 3rem;
@@ -328,7 +329,7 @@ input:checked + .slider:before {
 
 .aboutsite{
   display: inline-block;
-  background-color: var(--dark-pink);
+  background-color: var(--secondary-color);
   border-radius: 3rem;
   width: 300px;
   height: 650px;
@@ -368,8 +369,8 @@ h2{
 }
 
 .websites a{
-  background-color: var(--light-pink);
-  color: var(--dark-color);
+  background-color: var(--primary-color);
+  color: var(--light);
   padding: 1rem;
   text-align: center;
   display: block;
@@ -381,37 +382,36 @@ h2{
 }
 
 .websites a:hover{
-  background-color: var(--green);
-  text-decoration: var(--dark-color) wavy underline;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  text-decoration: var(--primary-color) wavy underline;
 }
 
 /* ----------- THIS IS THE CODE FOR QUOTE SECTION -----------*/
-.colorBlock{
+/* .colorBlock{
   background-color: var(--dark-blue);
   padding: 1rem;
 }
 
 .colorBlock p{
-  color: var(--cream);
+  color: var(--light);
   font-size: 24px;
   text-align: center;
-}
+} */
 
 /* ----------- THIS IS THE CODE FOR THE Experience -----------*/
 
 .experience{
-  background-color: var(--light-pink);
-  padding: 1rem;
-  padding-bottom: 10rem;
-    --mask:
-      radial-gradient(147.57px at 50% calc(100% - 204.00px),#000 100%,#0000 100%) calc(50% - 160px) 0/320px 100%,
-      radial-gradient(147.57px at 50% calc(100% + 124.00px),#0000 100%,#000 100%) 50% calc(100% - 80px)/320px 100% repeat-x;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);
+  background-color: var(--primary-color);
+  color: var(--light);
+  padding: 2rem;
+  padding-bottom: 2rem;
 }
 
+
+
 .experience p{
-  border-bottom: solid 4px var(--dark-color);
+  border-bottom: solid 4px var(--light);
   padding-bottom: 1rem;
   font-weight: 300;
   font-size:20px;
