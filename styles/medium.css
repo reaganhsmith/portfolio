@@ -145,5 +145,17 @@
 }
 
 
+.me h5{
+  font-size: 24px;
+}
+
+.socialmedia a img{
+  width: 6rem;
+}
+
+.contact{
+  justify-content: center;
+}
+
 
   }

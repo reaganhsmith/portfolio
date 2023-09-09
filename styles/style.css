@@ -49,8 +49,8 @@ header img{
 
   }
 
-.socialmedia img{
-    width: 3rem;
+.socialmedia a img{
+    width: 5rem;
 }
   
   .header li a {
@@ -181,15 +181,16 @@ header img{
 
 .selfie img{
     border-radius: 50%;
-    width: 30%;
+    width: 40%;
     padding: 2rem;
 }
 
 .selfie h1{
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 42px;
     padding-left: 2rem;
     margin-top: -2rem;
+    color: var(--primary-color);
 }
 
 .favthings{
@@ -511,4 +512,52 @@ h2{
 
 .about img{
   width: 20rem;
+}
+
+
+/* ----------- THIS IS THE CODE FOR THE me section -----------*/
+
+.me{
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: var(--light);
+  
+}
+
+.me h5{
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* ----------- THIS IS THE CODE FOR THE FOOTER section -----------*/
+
+footer{
+  background-color: var(--accent-color);
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.contact img{
+  margin-left: 1rem;
+}
+
+.chat{
+  padding: 2rem;
+}
+
+
+.chat h3{
+  font-size: 42px;
+  color: var(--light);
+}
+
+.chat p{
+  font-size: 28px;
+  color: var(--light);
 }

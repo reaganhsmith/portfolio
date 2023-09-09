@@ -128,6 +128,7 @@ font-size: 20px;
 
 
 .box{
+  height: 4rem;
   width: 25rem;
 }
 
@@ -135,6 +136,10 @@ font-size: 20px;
   font-size: 32px;
 }
 
+
+.me h5{
+  font-size: 32px;
+}
 
   }
 
