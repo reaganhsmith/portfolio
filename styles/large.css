@@ -117,7 +117,23 @@ font-size: 20px;
   width: 400px;
 }
 
+/* ----------- THIS IS THE CODE FOR School and classes -----------*/
+.school p{
+  font-size: 24px;
+}
 
+.school p:nth-child(2){
+  font-size: 32px;
+}
+
+
+.box{
+  width: 25rem;
+}
+
+.about p{
+  font-size: 32px;
+}
 
 
   }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
     --primary-color: #1E375A;
@@ -354,7 +354,8 @@ input:checked + .slider:before {
 }
 
 h2{
-  font-size: 42px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .websites h4{
@@ -423,9 +424,91 @@ h2{
 }
 
 /* ----------- THIS IS THE CODE FOR School and classes -----------*/
+.school{
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  color: var(--primary-color);
+  font-weight: 300;
+}
 
+.school h2, .school p{
+  text-align: center;
+}
+
+.school p{
+  font-size: 20px;
+}
+
+.school p:nth-child(2){
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ----------- THIS IS THE CODE FOR THE SKILLS section -----------*/
+
+.skills h3{
+  font-size: 48px;
+}
+
+.skills{
+  background-color: var(--primary-color);
+  color: var(--light);
+  padding: 2rem;
+}
+
+.skills p{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.box{
+  width: 20rem;
+  height: 8rem;
+  border: solid 5px var(--light);
+  margin: .5rem;
+}
+
+.boxes{
+  display: flex;
+}
+
+.boxes:nth-child(2n) .box:nth-child(1){
+  background-color: var(--light);
+}
+
+.colored{
+  background-color: var(--light);
+}
 
 /* ----------- THIS IS THE CODE FOR THE About me section -----------*/
 .pics img{
-  width: 5rem;
+  width: 16rem;
+}
+
+.pics{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.aboutMe{
+  color: var(--primary-color);
+}
+
+.about{
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about p{
+  font-size: 24px;
+}
+
+.about img{
+  width: 20rem;
 }

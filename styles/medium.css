@@ -121,6 +121,29 @@
           mask: var(--mask);
 }
 
+/* ----------- THIS IS THE CODE FOR School and classes -----------*/
+.school{
+  padding-top: 4rem;
+  margin-top: -7rem;
+}
+
+
+.pics img{
+  width: 18rem;
+}
+
+
+.about{
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.about p{
+  order:  1;
+  padding: 2rem;
+}
+
 
 
   }
