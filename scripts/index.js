@@ -25,12 +25,10 @@ toggleButton.addEventListener("click", () => {
     if (isButtonClicked) {
         // This is for the new changes we want when the button is clicked
 
-        root.style.setProperty('--dark-blue', '#E85FAD'); // Change to new colors
-        root.style.setProperty('--green', '#FCE1C6'); // Change to new colors
-        root.style.setProperty('--dark-pink', '#EE9BDD'); // Change to new colors
-        root.style.setProperty('--light-pink', '#FFEAFB'); // Change to new colors
-        root.style.setProperty('--cream', '#F5F1E7'); // Change to new colors
-        root.style.setProperty('--dark-color', '#311107'); // Change to new colors
+        root.style.setProperty('--primary-color', '#54193C'); // Changes when button clicked 
+        root.style.setProperty('--secondary-color', '#E2B2CF'); // Changes when button clicked 
+        root.style.setProperty('--accent-color', '#D46BA2'); // Changes when button clicked 
+        root.style.setProperty('--light', '#FCF6EF'); // Changes when button clicked 
 
         cats.src = "images/ccimages/cats.png";
         arrow.src = "images/ccimages/arrow.png"
@@ -48,12 +46,10 @@ toggleButton.addEventListener("click", () => {
                 // This is for the standard design We want saved 
 
                 
-        root.style.setProperty('--dark-blue', '#7BA1A9'); // Revert to original colorsired color
-        root.style.setProperty('--green', '#E1E7D0'); // Revert to original colorsired text color
-        root.style.setProperty('--dark-pink', '#E2C3C8'); // Revert to original colorsired text color
-        root.style.setProperty('--light-pink', '#F4EDEE'); // Revert to original colorsired text color
-        root.style.setProperty('--cream', '#F1F0E5'); // Revert to original colorsired text color
-        root.style.setProperty('--dark-color', '#193338'); // Revert to original colorsired text color
+        root.style.setProperty('--primary-color', '#1E375A'); // Revert to original colorsired color
+        root.style.setProperty('--secondary-color', '#DADEBE'); // Revert to original colorsired text color
+        root.style.setProperty('--accent-color', '#CEAFD4'); // Revert to original colorsired text color
+        root.style.setProperty('--light', '#FBFCF4'); // Revert to original colorsired text color
 
         cats.src = "images/cats.png";
         arrow.src = "images/arrow.png";
@@ -72,3 +68,5 @@ toggleButton.addEventListener("click", () => {
         toggleButton.classList.remove("button-clicked");
     }
 });
+
+
