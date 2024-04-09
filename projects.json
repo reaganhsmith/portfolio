@@ -1,0 +1,76 @@
+[
+    {
+        "siteName": "Bountiful Foods",
+        "description": "I really enjoyed creating this website. I was given restraints on what the website needed to have on it and what sources I could draw from. I was asked to include weather from a weather API and have the option for the user to create a smoothie. The options for the smoothie and nutritional information comes from a JS array. This website taught me how to use Javascript within a website.",
+        "timeframe": "Spring 2023",
+        "code": "https://github.com/reaganhsmith/wdd230",
+        "url": "https://reaganhsmith.github.io/wdd230/Final/index.html",
+        "lightIcon": "images/bountiful.png",
+        "darkIcon": "images/ccimages/cherry.png"
+    },
+    {
+        "siteName": "Star Chamber of Commerce",
+        "description": "This website was for my webfrontend class at BYU-I. I was asked to choose a city and re-do the website for it. I also was given an outline for the web page that I was asked to recreate using CSS, HTML and Javascript. This project taught me more about how to utilize Javascript for your websites.",
+        "timeframe": "Spring 2023",
+        "code": "https://github.com/reaganhsmith/wdd230",
+        "url": "https://reaganhsmith.github.io/wdd230/chamber/index.html",
+        "lightIcon": "images/starCC.png",
+        "darkIcon": "images/ccimages/star.png"
+    },
+    {
+        "siteName": "Dry Oar",
+        "description": "This was one of the very first web pages I created with HTML and CSS. It was part of what sparked my interest in web development. I had a fun time creating this website and using css makes it fabulous. This site taught me more about the power of grids and layouts to make a website.",
+        "timeframe": "Fall 2021",
+        "code": "https://glitch.com/edit/#!/cord-caramel-bear",
+        "url": "https://cord-caramel-bear.glitch.me/",
+        "lightIcon": "images/BrokenOar.png",
+        "darkIcon": "images/ccimages/oar.png"
+    },
+    {
+        "siteName": "Save Your Home",
+        "description": "Something I am very passionate about as a person is the ocean and marine life. For this website I was asked to pick or create a nonprofit and create a website for it. I picked taking care of our ocean because it is something I am very passionate about. I enjoyed picking the color pallet for this site as well and designing the layout and logo.",
+        "timeframe": "Fall 2022",
+        "code": "https://glitch.com/edit/#!/spiny-atlantic-barnacle",
+        "url": "https://spiny-atlantic-barnacle.glitch.me/",
+        "lightIcon": "images/ocean.png",
+        "darkIcon": "images/ccimages/fish.png"
+    },
+    {
+        "siteName": "YumYum Cooking",
+        "description": "This project was for Web Frontend 2. I made a page that holds and organizes recipes. Then the user can add recipes to favorites that way they are easy to return to. All the data held in this site is from a json file. This site is dynamically built. ",
+        "timeframe": "Fall 2023",
+        "code": "https://github.com/reaganhsmith/WDD330",
+        "url": "https://yumyumcookingproject.netlify.app/",
+        "lightIcon": "",
+        "darkIcon": ""
+    },
+    {
+        "siteName": "",
+        "description": "",
+        "timeframe": "",
+        "code": "",
+        "url": "",
+        "lightIcon": "",
+        "darkIcon": ""
+    },
+    {
+        "siteName": "",
+        "description": "",
+        "timeframe": "",
+        "code": "",
+        "url": "",
+        "lightIcon": "",
+        "darkIcon": ""
+    },
+    {
+        "siteName": "",
+        "description": "",
+        "timeframe": "",
+        "code": "",
+        "url": "",
+        "lightIcon": "",
+        "darkIcon": ""
+    }
+   
+
+]
